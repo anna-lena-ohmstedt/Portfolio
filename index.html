@@ -379,7 +379,16 @@
   .seine-eyebrow { font-family:var(--font-s); font-size:.54rem; letter-spacing:.36em; text-transform:uppercase; color:var(--gold); margin-bottom:2rem; display:block; }
   .seine-quote { font-family:var(--font-d); font-style:italic; font-weight:300; font-size:clamp(1.4rem,2.1vw,2rem); line-height:1.52; color:rgba(244,239,232,.72); margin-bottom:2rem; }
   .seine-body  { font-family:var(--font-d); font-size:1rem; line-height:1.85; color:#6F6B67; }
-
+.img-credit {
+  position: absolute;
+  bottom: 12px;
+  right: 16px;
+  font-family: var(--font-s);
+  font-size: 0.48rem;
+  letter-spacing: 0.1em;
+  color: rgba(255,255,255,0.55);
+  text-transform: uppercase;
+}
   #contact { background:#0F0F0F; padding:11rem 5rem 12rem; }
 
   .contact-grid { display:grid; grid-template-columns:1fr 1fr; gap:8rem; align-items:start; }
@@ -793,9 +802,10 @@
 
 <div class="seine-section">
   <div class="seine-img-wrap fade">
-    <img src="seine.JPG" alt="Seine, Paris – Conciergerie at golden hour">
-    <span class="seine-label">Seine, Paris</span>
-  </div>
+  <img src="seine.JPG" alt="Seine, Paris, Conciergerie at golden hour">
+  <span class="seine-label">Seine, Paris</span>
+  <span class="img-credit">© Anna-Lena Ohmstedt</span>
+</div>
   <div class="seine-text fade d2">
     <span class="seine-eyebrow">International Perspective</span>
     <p class="seine-quote">
